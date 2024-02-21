@@ -44,3 +44,19 @@ family = {"Faraz": "The musketeers", "Afrin": "The Better Half", "Omair": "Is Go
 print(family)
 for k,v in family.items():
     print(k,"-",v)
+
+#Found the key is exist or not.
+found_dictionary = {"a": 1, "b": 10, "c": 5}
+for k,v in found_dictionary.items():
+    if k == "b":
+        print("b is found")
+    elif v == 10:
+        print("10 is available")
+    if k == "a":
+        print("a is available")
+    elif v == 1:
+        print("1 is available")
+    if k == "c":
+        print("c is available")
+    elif v == 5:
+        print("5 is available")
