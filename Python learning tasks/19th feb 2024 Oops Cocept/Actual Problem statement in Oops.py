@@ -14,7 +14,7 @@ class students:
 
 
 class Course:
-    def initial(self, name, code, instructor, students=None):
+    def __init__(self, name, code, instructor, students=None):
         self.name = name  # Name of the course
         self.code = code  # Course code or identifier
         self.instructor = instructor  # Instructor of the course
