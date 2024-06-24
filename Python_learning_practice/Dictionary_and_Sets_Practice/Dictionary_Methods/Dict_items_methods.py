@@ -2,7 +2,7 @@ my_bike_details = {
     "Name": "FZS V4.0",
     "CC": "149.5 CC",
     "Top_Speed": "135 kmph",
-    "milage":{
+    "milage": {
         "Highway": 55,
         "City": 45,
     }
