@@ -1,3 +1,5 @@
+# as a Programmer forcefully need to cast specify to interpreter the value is Int, float, string, etc..
+
 # x = "20" this is wrong in pyhton need to do type casting manually as below.
 # y = "91.123"
 

@@ -1,3 +1,5 @@
+# interpreter automatically convert the type.
+
 # a = 10
 # b = 90.39
 #
@@ -11,3 +13,4 @@ result1 = x + y
 print(result1)
 print(type(x))
 print(type(y))
+print(type(result1))
