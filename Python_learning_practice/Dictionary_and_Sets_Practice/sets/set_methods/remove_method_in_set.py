@@ -1,0 +1,10 @@
+students_data = set()
+students_data.add((1, "Faraz"))
+students_data.add((2, "Afrin"))
+students_data.add((3, "Omair"))
+students_data.add((4, "Najma"))
+students_data.add((5, "Faruque"))
+print(students_data)
+students_data.remove((1, "Faraz"))
+
+print(students_data)
