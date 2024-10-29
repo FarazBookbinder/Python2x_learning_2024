@@ -16,7 +16,6 @@ input2 = input("Please enter your 2nd value:-")
 input3 = input("Please enter your 3rd value:-")
 
 my_list = [input1, input2, input3]
-print("You entered",my_list)
 my_new_copy = my_list.copy()
 my_new_copy.reverse()
 
