@@ -39,10 +39,20 @@
 # print("Total is:-", sum)
 
 # WAP to print a factorial of n number. using a while loop
-n = 4
-fact = 1
-i = 1
-while i <= n:
-    fact = fact * i
-    i += 1
-print("Factorail is:-", fact)
+# n = 4
+# fact = 1
+# i = 1
+# while i <= n:
+#     fact = fact * i
+#     i += 1
+# print("Factorial is:-", fact)
+
+# Above program using for loop
+
+n = 5
+facto = 1
+for i in range(1, n+1):
+    facto = facto * i
+print("Total is:-", facto)
+print(i)
+
