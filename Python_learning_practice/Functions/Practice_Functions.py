@@ -40,3 +40,4 @@ def average_of_three_number():
 average_of_three_number()
 average_of_three_number()
 average_of_three_number()
+
