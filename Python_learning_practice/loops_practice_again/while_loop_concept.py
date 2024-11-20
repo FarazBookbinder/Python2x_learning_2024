@@ -105,9 +105,9 @@ i = 0
 
 while i < fibonacci_till:
     fibonacci_sequence.append(a)
-    temp = a # here temp = 0
-    a = b    # here update a now a = b means a = 1
-    b = temp + b # here update the b means b = o + 1
+    temp = a # here temp = 0 next iteration temp = 1
+    a = b    # here update "a" now a = b means a = 1
+    b = temp + b # here update the "b" means b = o + 1
     i += 1
 print(fibonacci_sequence)
 

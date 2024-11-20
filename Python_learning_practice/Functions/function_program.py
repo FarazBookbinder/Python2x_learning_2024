@@ -69,9 +69,9 @@ number = int(input("Please enter the number: "))
 
 def odd_even_number_check(number):
     if number % 2 == 0:
-        print(number, "This is even number")
+        print(number, "EVEN")
     else:
-        print(number, "This is odd number")
+        print(number, "ODD")
     return number
 
 odd_even_number_check(number)
